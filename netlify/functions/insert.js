@@ -40,11 +40,10 @@ app.post('/api/insert', async (req, res) => {
 app.get('/api/latest', async (req, res) => {
   // Configuración del cliente de MySQL
   const connection = await mysql.createConnection({
-    host: 'TU_HOST',
-    user: 'TU_USUARIO',
-    password: 'TU_CONTRASEÑA',
-    database: 'TU_BASE_DE_DATOS',
-    port: 3306 // Asegúrate de que este puerto es correcto
+    host: "bolruxyecypx1aopslow-mysql.services.clever-cloud.com",
+    user: "urc25cuuwg0uzsbh",
+    password: "d3UdGjs8QdZICM7NGruM",
+    database: "bolruxyecypx1aopslow",
   });
 
   try {
